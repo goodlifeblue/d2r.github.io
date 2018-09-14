@@ -1,0 +1,654 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+
+/* 
+D2R RWD set
+
+1.10001300
+2.>900
+
+
+ */
+
+@media (min-width:1000px) and (max-width: 1300px) {
+    #Feature .container {
+        width: 90%;
+    }
+    #Photogallery .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #Specification .container {
+        width: 80%;
+    }
+    #wherebuy .h4 {
+        margin-top: 60px;
+        display: block;
+        font-size: 3em;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'MyriadPro-Regular';
+    }
+    .buylink a {
+        font-size: 1.5em;
+        color: #fff;
+        display: block;
+        margin-top: 14%;
+        display: block;
+        letter-spacing: 0px;
+    }
+
+.modle {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    background: url('../images/modle.png') no-repeat;
+    display: block;
+}
+
+
+    #logo {
+        left: 0%;
+    }
+}
+
+
+
+
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+
+/* @media (min-width: 768px) and (max-width: 979px),
+(min-width: 980px) and (max-width: 1150px) { */
+
+@media (max-width: 900px),
+{
+
+    /*header*/
+    .navbar-nav li a {
+        font-family: Arial;
+        padding-left: 0px;
+        position: relative;
+    }
+    .navbar-nav li a.current:before,
+    .navbar-nav li a:focus:before,
+    .navbar-nav li a:hover:before {
+        font-size: 30px;
+        font-weight: bold;
+        content: "/";
+        color: #0079e0;
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: -15px;
+    }
+
+    /*Feature*/
+    #Feature {
+        height: 100vh;
+        background: url(../images/bg2.jpg) 50% 0%;
+        background-size: cover;
+    }
+
+    #Feature .row {
+        font-size: 1rem;
+    }
+
+
+
+
+    /* contact */
+    .contact-form .name-email input {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .footer-social {
+        margin-top: 45px;
+    }
+
+    /* footer */
+    .footer-single {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px),
+(min-width: 768px) and (max-width: 900px) {
+
+
+
+    .navbar-nav li a {
+        font-size: 1.0em;
+        font-family: Arial;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .navbar-nav li a.current,
+    .navbar-nav li a:focus,
+    .navbar-nav li a:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .navbar-nav li a.current:before,
+    .navbar-nav li a:focus:before,
+    .navbar-nav li a:hover:before {
+        font-size: 1.3em;
+        content: "//";
+        color: red;
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .navbar-nav {
+        font-size: 15px;
+        font-family: 'Arial Black';
+        clear: both;
+    }
+
+
+    #logo {
+        position: absolute;
+        left: 0%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+
+    /*topbanner01*/
+    .zwift {
+        display: none;
+    }
+
+    .modle {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        background: url(../images/modle.png) no-repeat 55% 100%;
+        display: block;
+        width: 100%;
+        background-size: 140%;
+    }
+
+    .banner01words {
+        height: 100%;
+        top: 12%;
+    }
+    .banner01words h1 {
+        padding: 0px 0 0px 0;
+        font-size: 1.3em;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .banner01words h2 {
+        top: 5%;
+        position: absolute;
+        font-size: 1em;
+    }
+    .icons {
+        position: absolute;
+        top: 27%;
+    }
+    .icons span {
+        margin-right: 0px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+    }
+    .icons span img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part3 {
+        position: absolute;
+        background: url('../images/price.png') no-repeat;
+        display: block;
+        width: 545px;
+        height: 77px;
+        background-size: 50%;
+        top: 14%;
+    }
+    #banner2_bg {
+        background: url(images/b2_bg.jpg) 63% 60%;
+        background-size: 20%;
+    }
+
+    .footer div {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .sideBtn {
+        display: none;
+        top: 10rem;
+        right: 0rem;
+        z-index: 200;
+        position: fixed;
+        height: 10%;
+        background: #fff;
+    }
+    .b2_h1 {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+    #wherebuy .container {
+ width: 100%;
+}
+
+    .buylinkEng a{
+        font-size: 1em;
+        color: #fff;
+        display: block;
+        margin-top: 4%;
+        display: block;
+        letter-spacing: 0px; 
+        text-align: center;
+    }
+#eng {
+    font-size: 1.8em;
+    font-weight: 900;text-align: left;
+    font-family: "Roboto", "Adobe Blank";
+}
+
+
+#eng2 {
+    font-size: 1em;
+    margin-top: 4%;
+    font-family: "Roboto", "Adobe Blank";
+}
+
+    /*語系展開*/
+    ul#country {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    #country li {
+        float: left;
+    }
+
+    #country li a {
+        width: 40px;
+        line-height: 35px;
+        border: solid 2px #fff;
+        text-align: center;
+        display: inline-block;
+    }
+
+    /* header */
+    #logo img {
+        text-align: center;
+        width: 70%;
+    }
+    #logo {
+        display: inline-block;
+    }
+    .navbar-brand {
+        float: left;
+    }
+    .sec-sub-title p {
+        font-size: 14px;
+    }
+    #nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #nav li a {
+        display: block;
+    }
+
+    /* slider */
+    #background {
+        display: none;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        /*text-shadow: 0 1px 2px rgba(0, 0, 0, .6);*/
+    }
+    .carousel-caption img {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-caption h2 {
+        margin-top: 10px;
+        font-size: 2.5rem;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        letter-spacing: -0.2rem;
+        font-weight: 700;
+    }
+
+    .carousel-caption h3 {
+        text-align: left;
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        font-size: 6rem;
+        line-height: 5rem;
+        font-weight: 700;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        margin-top: 50px;
+        text-align: left;
+        line-height: 30px;
+    }
+
+
+    /* services */
+    .service-item {
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 280px;
+    }
+
+    .service-icon {
+        float: none;
+        margin: 0 auto 15px;
+        text-align: center;
+        width: 50px;
+    }
+
+    .service-desc {
+        margin-left: 0;
+        position: relative;
+        top: 0;
+    }
+
+    h3 {
+        font-size: 2em;
+        font-weight: blod;
+        padding: 15px 0 20px 15px;
+        margin-top: 40px;
+    }
+    h3 b {
+        color: red;
+    }
+    h3 span {
+        font-size: 0.7em;
+    }
+
+
+    #Feature {
+        background: url(../images/bg2.jpg) 50% 0%;
+        background-size: cover;
+        height: auto;
+        /* height: 917px; */
+    }
+    #Feature {
+        overflow: hidden;
+    }
+    .features_d2r {
+        margin: 0 auto;
+    }
+
+
+
+    #Feature h3 {
+        margin-top: 20px;
+    }
+    .d2r_p1 {
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        z-index: 48;
+    }
+
+    .d2r_p2 {
+        width: 70%;
+        position: absolute;
+        top: 8%;
+        left: 0%;
+        z-index: 47;
+    }
+    .features_words h5+span {
+        height: 110px;
+        display: block;
+        font-size: 1.2em;
+        padding-right: 0px;
+    }
+
+    .mousebox {
+        display: block;
+        position: absolute;
+        bottom: 2rem;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 40;
+    }
+
+    .features_words {
+        clear: both;
+        margin-top: 100%;
+    }
+
+    .price2,
+    .logo2 {
+        display: none;
+    }
+    #Specification .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    dl.inline-flex {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        /* set the container width*/
+        overflow: visible;
+        width: 100%;
+    }
+    dl.inline-flex dt {
+        flex: 0 0 25%;
+        padding: 6px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        border-bottom: solid 1px red;
+        font-size: 0.9em;
+    }
+    dl.inline-flex dd {
+        flex: 74% 0 0;
+        border-bottom: solid 1px #d1d1d1;
+        margin-left: auto;
+        text-align: left;
+        padding: 6px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 1.5em;
+        font-size: 0.9em;
+    }
+
+
+    #Specification {
+        display: block;
+        background: url(../images/bg3.jpg);
+        position: relative;
+        padding-top: 5%;
+        height: auto;
+        padding-bottom: 15%;
+    }
+    /*#Photogallery*/
+    #Photogallery .container {
+        width: 100%;
+    }
+    .showbox {
+        margin-top: 20px;
+        width: 100%;
+        margin-right: 0px;
+        vertical-align: middle;
+        position: relative;
+    }
+    .showbox img {
+        width: 100%;
+    }
+
+    .photolist {
+        display: block;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .photolist a {
+        margin-right: 2.5%;
+        display: inline-block;
+        width: 30%;
+    }
+    .photolist a img {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .zoomicon {
+        display: block;
+        width: 30px;
+        width: 30px;
+        position: absolute;
+        right: 7%;
+        bottom: 4%;
+    }
+    .zoomicon img {
+        width: 30px;
+        width: 30px;
+    }
+
+    #wherebuy .h4 {
+        margin-top: 10%;
+        letter-spacing: 2px;
+        font-size: 2em;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'MyriadPro-Regular';
+        text-align: center;
+    }
+    .buylink a {
+        font-size: 1em;
+        color: #fff;
+        display: block;
+        margin-top: 5%;
+        text-align: center;
+        letter-spacing: -0.3px;
+    }
+}
+
+
+/*end--------------------------------------------------------------*/
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /*語系展開*/
+    ul#country {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    #country li {
+        margin-right: 10px;
+        backgournd: #fff;
+        float: left;
+    }
+
+    #country li a {
+        width: 40px;
+        line-height: 35px;
+        border: solid 2px #fff;
+        text-align: center;
+        display: inline-block;
+    }
+
+    /*.navbar-collapse ul li{display:none;}*/
+    #logo {
+        display: block;
+    }
+    .navbar-brand {
+        float: left;
+    }
+
+    /*words*/
+    .aboutwords {
+        margin-top: 30px;
+        font-size: 16px
+    }
+
+    /* services */
+    .service-item {
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 325px;
+    }
+
+    .service-icon {
+        float: none;
+        margin: 0 auto 15px;
+        text-align: center;
+        width: 50px;
+    }
+
+    .service-desc {
+        margin-left: 0;
+        position: relative;
+        top: 0;
+    }
+
+    #Warranty {
+        width: 90%;
+        margin: 20px auto;
+    }
+    /* works */
+    .work-item {
+        left: inherit !important;
+        width: 50%;
+    }
+    .mousebox {
+        display: block;
+        position: absolute;
+        bottom: 2rem;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 40;
+    }
+}

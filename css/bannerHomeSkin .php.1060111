@@ -1,0 +1,78 @@
+<?php
+/**
+ * 20160804 by fun add by 國家
+ * show => 0 不顯示
+ * show => 1 顯示
+ */
+switch ($ptClass->getWebCountry()) {
+    case 'TWN': /// 台灣
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=zh', 'img' => 'skin_banner_left_0105_tw.png'),
+        	'right' => array('url' => '/?lang=zh', 'img' => 'skin_banner_right_0105_tw.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'HKG': /// 香港
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=zh', 'img' => 'skin_banner_left_0105_hk.png'),
+        	'right' => array('url' => '/?lang=zh', 'img' => 'skin_banner_right_0105_hk.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'JPN': /// 日本
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=jp', 'img' => 'skin_banner_left_0105_jp.png'),
+        	'right' => array('url' => '/?lang=jp', 'img' => 'skin_banner_right_0105_jp.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'MYS': /// 馬來西亞
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=en', 'img' => 'skin_banner_left_0105_en.png'),
+        	'right' => array('url' => '/?lang=en', 'img' => 'skin_banner_right_0105_en.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'SGP': /// 新加坡
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=en', 'img' => 'skin_banner_left_0105_en.png'),
+        	'right' => array('url' => '/?lang=en', 'img' => 'skin_banner_right_0105_en.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'AUS': /// 澳洲
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=en', 'img' => 'skin_banner_left_0105_en.png'),
+        	'right' => array('url' => '/?lang=en', 'img' => 'skin_banner_right_0105_en.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'KOR': /// 韓國
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=ko', 'img' => 'skin_banner_left_0105_ko.png'),
+        	'right' => array('url' => '/?lang=ko', 'img' => 'skin_banner_right_0105_ko.png'),
+        	'show' => 1,
+        );
+        break;
+    case 'CNY': /// 大陸
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => 'http://www.cyclingexpress.com.cn', 'img' => 'skin_banner_left_0105_cn.png'),
+        	'right' => array('url' => 'http://www.cyclingexpress.com.cn', 'img' => 'skin_banner_right_0105_cn.png'),
+        	'show' => 1,
+        );
+        break;
+    default:
+        $bannerHomeSkinList = array(
+        	'left' => array('url' => '/?lang=en', 'img' => 'skin_banner_left_0105_en.png'),
+        	'right' => array('url' => '/?lang=en', 'img' => 'skin_banner_right_0105_en.png'),
+        	'show' => 1,
+        );
+        break;
+}
+
+
+if($bannerHomeSkinList['show']==1){
+		echo '<div id="layoutBannerLeft" style="position:absolute; margin-top:0px;margin-left:-170px;"><a href="'.$bannerHomeSkinList['left']['url'].'" target="_blank"><img src="/images/ceflags/106/'.$bannerHomeSkinList['left']['img'].'" /></a></div>';
+	    echo '<div id="layoutBannerRight" style="position:absolute; margin-top:0px;margin-left:990px;"><a href="'.$bannerHomeSkinList['right']['url'].'" target="_blank"><img src="/images/ceflags/106/'.$bannerHomeSkinList['right']['img'].'" /></a></div>';
+}
+
